@@ -15,6 +15,6 @@ public class UserController {
         if (id ==0) {
             throw  new ResourceNotFoundException("Id is 0" + id);
         }
-        return "User found with id: " + id;
+        return "User exists  with User id: " + id;
     }
 }
