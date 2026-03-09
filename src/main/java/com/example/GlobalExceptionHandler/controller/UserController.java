@@ -15,6 +15,6 @@ public class UserController {
         if (id ==0) {
             throw  new ResourceNotFoundException("Id is 0" + id);
         }
-        return "I am testing Github Desktop with feature changes User exists  with User id: " + id;
+        return "I am Github Desktop with feature changes User exists  with User id: " + id;
     }
 }
