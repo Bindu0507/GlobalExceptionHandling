@@ -15,6 +15,6 @@ public class UserController {
         if (id ==0) {
             throw  new ResourceNotFoundException("Id is 0" + id);
         }
-        return "Testing Github desktop checking out the branch with User id: " + id;
+        return "Testing Github desktop testing checking out the branch with User id: " + id;
     }
 }
